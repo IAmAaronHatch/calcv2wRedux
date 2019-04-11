@@ -3,11 +3,15 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 class LandingPage extends Component {
-    render () {
+    render() {
         return (
             <div>
                 LandingPage
-                
+                <Link to='/calc'>
+                    <button>
+                        Calculator ->
+                    </button>
+                </Link>
             </div>
         )
     }
@@ -19,4 +23,4 @@ let mapStateToProps = (state) => {
     }
 }
 
-export default connect(mapStateToProps) (LandingPage)
+export default connect(mapStateToProps)(LandingPage)

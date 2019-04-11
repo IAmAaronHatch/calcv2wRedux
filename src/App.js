@@ -13,7 +13,7 @@ class App extends Component {
         <Header />
         <Switch>
           <Route exact path='/' component={ LandingPage } />
-          <Route path='calculator' component={ Calculator } />
+          <Route path='/calc' component={ Calculator } />
         </Switch>
       </div>
     );
