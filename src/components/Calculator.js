@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 
-class Header extends Component {
+class Calculator extends Component {
     render () {
         return (
             <div>
-                Header
+                Calculator
             </div>
         )
     }
 }
-export default Header
+
+export default Calculator;
